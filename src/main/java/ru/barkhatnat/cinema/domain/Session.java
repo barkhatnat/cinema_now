@@ -40,5 +40,5 @@ public class Session {
     private Integer price;
 
     @OneToMany(mappedBy = "session", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<OccupiedSeats> occupiedSeats;
+    private List<OccupiedSeat> occupiedSeats;
 }

@@ -13,7 +13,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class OccupiedSeats {
+public class OccupiedSeat {
     @Id
     @UuidGenerator
     private UUID id;

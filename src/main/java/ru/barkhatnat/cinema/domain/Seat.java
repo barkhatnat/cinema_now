@@ -42,7 +42,7 @@ public class Seat {
     private List<Ticket> tickets = new ArrayList<>();
 
     @OneToMany(mappedBy = "seat", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<OccupiedSeats> occupiedSeats = new ArrayList<>();
+    private List<OccupiedSeat> occupiedSeats = new ArrayList<>();
 
     public Seat(Row row, Integer number, SeatType type, List<Ticket> tickets) {
         this.row = row;
