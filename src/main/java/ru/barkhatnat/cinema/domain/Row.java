@@ -18,6 +18,7 @@ import java.util.UUID;
 @Setter
 @Builder
 @AllArgsConstructor
+@Table(name = "cinema_row")
 @NoArgsConstructor
 public class Row {
     @Id
